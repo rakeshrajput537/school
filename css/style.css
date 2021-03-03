@@ -1,0 +1,432 @@
+
+@font-face {
+    font-family: Avenir;
+    src: url(../fonts/AvenirLTStd-Light.otf);
+}
+
+body {
+    font-family: "Avenir", Sans-serif;
+}
+
+.new-footer {
+    background: url(../images/footer.png) no-repeat;
+    background-size: contain;
+    height:162px;
+}
+
+.new-footer1 {
+    background: url(../images/footer1.png) no-repeat;
+    background-size: contain;
+    height: 100px;
+    padding-top: 25px;
+}
+
+.new-footer2 {
+    background: url(../images/footer2.png) no-repeat;
+    background-size: cover;
+    height: 100px;
+}
+
+.banner {
+    margin: 0px 0px 40px
+}
+
+.filepond--root {
+    min-height: 78px !Important;
+}
+
+.banner img {
+   width: 100%;
+}
+
+.img-footer {
+    max-width: 100%;
+    height: 120px;
+}
+
+
+.required {
+    color: #f00;
+}
+
+.formWrap h1 {
+    color: #250A5B;
+    font-size: 16px;
+    font-family: "Avenir", Sans-serif;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.registerationForm {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+    .registerationForm label {
+        font-family: "Avenir", Sans-serif;
+        font-weight: 400;
+        margin-bottom: 0px;
+        font-size: 15px;
+        line-height: 28px;
+        color: #2b2424;
+    }
+
+    .registerationForm input {
+        font-size: 15px;
+        min-height: 40px;
+        padding: 5px 14px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        color: #2b2424;
+        font-family: "Avenir", Sans-serif;
+        font-weight: 400;
+        background-color: #ffffff;
+        border: 1px solid #818a91;
+        vertical-align: middle;
+        -webkit-box-flex: 1;
+        -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        width: 100%;
+    }
+
+    .registerationForm select {
+        font-size: 15px;
+        min-height: 40px;
+        padding: 5px 14px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        color: #2b2424;
+        font-family: "Avenir", Sans-serif;
+        font-weight: 400;
+        background-color: #ffffff;
+        border: 1px solid #818a91;
+        vertical-align: middle;
+        -webkit-box-flex: 1;
+        -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        width: 100%;
+    }
+
+    .registerationForm .btn.btn-primary {
+        color: #ffffff;
+        background-color:#2D4A9C;
+        background-color:#2D4A9C;
+        border-radius: 49px 49px 49px 49px;
+        font-family: "Avenir", Sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        padding: 10px 35px;
+        width: auto;
+        margin: 40px 0px;
+    }
+
+.errorMsg {
+    font-size: 12px;
+    color: #f00;
+    width: 100%;
+    display: inline-block;
+    ;
+}
+
+.subHeading {
+    background-color: #250A5B;
+    align-items: center;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 15px 15px 15px 15px;
+}
+
+    .subHeading h2 {
+        color: #ffffff;
+        font-size: 18px;
+        font-family: "Avenir", Sans-serif;
+        font-weight: normal;
+        padding: 0;
+        margin: 0;
+        line-height: 1;
+    }
+
+.ticketBox {
+    margin: 40px 0px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+    .ticketBox h3 {
+        background-color: #ffffff;
+        padding: 20px 0;
+        color: #2A0B5B;
+        font-size: 22px;
+        font-weight: bold;
+        font-family: "Avenir", Sans-serif;
+        margin: 0;
+        line-height: 1.2;
+        text-align: center;
+    }
+
+    .ticketBox .priceBox {
+        background-color: #f7f7f7;
+        padding: 55px 0;
+        font-size: 85px;
+        font-weight: 600;
+        line-height: 0.1em;
+    }
+
+        .ticketBox .priceBox .actualPriceBox small {
+            font-size: 18px;
+            text-decoration: line-through;
+        }
+
+        .ticketBox .priceBox .actualPriceBox {
+            align-self: flex-end;
+            line-height: normal;
+            letter-spacing: normal;
+            text-transform: none;
+            font-weight: 400;
+            font-size: medium;
+            font-style: normal;
+            color: #54595f;
+            font-family: "Avenir", Sans-serif;
+        }
+
+            .ticketBox .priceBox .actualPriceBox span.currency {
+                font-size: 28px;
+                align-self: flex-end;
+                color: #250A5B;
+                font-weight: bold;
+                margin-left: 5px;
+                line-height: 1;
+                text-decoration: none;
+            }
+
+
+        .ticketBox .priceBox .price {
+            line-height: .8;
+            color: #270A5A;
+        }
+
+        .ticketBox .priceBox .priceText {
+            font-family: 'Avenir', serif;
+            font-size: 18px;
+            line-height: 24px;
+            margin-top: 10px;
+            font-weight: normal;
+        }
+
+.radioContainer {
+    display: block;
+    position: relative;
+    padding-left: 0px;
+    /* margin-bottom: 12px; */
+    cursor: pointer;
+    /* font-size: 22px; */
+    /* -webkit-user-select: none; */
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    height: 50px;
+    margin: 40px auto 0px;
+    /* line-height: 50px; */
+    /* color: #250A5B; */
+    /* font-size: 14px; */
+    /* font-weight: 600; */
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #250A5B;
+    border-radius: 0px 0px 0px 0px;
+    padding: 10px 45px 10px 45px;
+    width: 160px;
+    background: #fff;
+}
+
+    .radioContainer input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        width: 0px;
+    }
+
+    .radioContainer .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 50px;
+        width: 100%;
+        background-color: #eee;
+        border-radius: 0px;
+        z-index: -1;
+    }
+
+    .radioContainer:hover .checkedButtin ~ .checkmark {
+        background-color: #250A5B;
+        border-color: #250A5B;
+    }
+
+    .radioContainer .checkedButtin ~ .checkmark {
+        background-color: #daa520;
+        z-index: 1;
+    }
+
+    .radioContainer .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+    .radioContainer .checkedButtin ~ .checkmark:after {
+        display: block;
+    }
+
+    .radioContainer .checkmark:after {
+        top: -1px;
+        left: 0px;
+        width: 100%;
+        height: 51px;
+        line-height: 48px;
+        border-radius: 0;
+        background: #250A5B;
+        content: "Select";
+        border: 1px solid #250A5B;
+        color: #fff;
+        z-index: 1;
+    }
+
+.ticketBox:hover {
+    box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, 0.24);
+}
+
+
+.ticketPayementBox {
+    width: 100%;
+    border-bottom: 1px solid #250A5B;
+}
+
+    .ticketPayementBox thead {
+        background: #e0e0e0;
+    }
+
+        .ticketPayementBox thead tr td {
+            font-size: 16px;
+            font-family: "Avenir", Sans-serif;
+            font-weight: 600;
+            color: #250A5B;
+            padding: 15px;
+        }
+
+    .ticketPayementBox tbody tr td {
+        font-size: 16px;
+        font-family: "Avenir", Sans-serif;
+        font-weight: 600;
+        color: #250A5B;
+        padding: 15px;
+    }
+
+        .ticketPayementBox tbody tr td b {
+            color: #f00;
+        }
+
+        .ticketPayementBox tbody tr td i {
+            width: 100%;
+            display: inline-block;
+            font-size: 12px;
+            font-weight: normal;
+            font-style: italic;
+        }
+
+        .socialIcons {
+            width:100%;
+            margin:0 auto;
+            margin-top:60px;
+        }
+
+            .socialIcons ul {
+                padding: 0px;
+            }
+
+                .socialIcons ul li {
+                    display: inline-block;
+                    list-style: none;
+                }
+
+                    .socialIcons ul li img {
+                        max-width: 60px;
+                        width: 100%;
+                    }
+
+
+
+
+
+
+    @media only screen and (max-width: 991px) {
+        .ticketBox .priceBox {
+            font-size: 10vw;
+            padding: 20px;
+        }
+
+        .radioContainer {
+            width: auto;
+            max-width: 90%;
+            padding: 10px 15px;
+        }
+
+        .ticketBox h3 {
+            min-height: 90px;
+        }
+
+        .ticketBox .priceBox .priceText {
+            font-size: 16px;
+            line-height: 22px;
+        }
+
+        .socialIcons {
+            margin-top: 30px;
+        }
+
+    }
+
+@media only screen and (max-width: 768px) {
+    .socialIcons {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .socialIcons {
+        margin-top: 10px;
+    }
+
+        .socialIcons ul li img {
+            max-width: 45px;
+            width: 100%;
+        }
+
+        .socialIcons ul li span {
+            font-size: 18px !important;
+        }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .socialIcons {
+        margin-top: 10px;
+    }
+
+        .socialIcons ul li img {
+            max-width: 30px;
+            width: 100%;
+        }
+
+        .socialIcons ul li span {
+            font-size:13px !important;
+        }
+}
+
+
+
